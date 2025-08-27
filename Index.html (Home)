@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reliable Plumbing Services | Home</title>
+  <!-- Part 1: HTML only (no CSS/JS). Add CSS/JS in Part 2/3. -->
+  <meta name="description" content="Reliable Plumbing Services - Professional residential and commercial plumbing solutions."/>
+</head>
+<body>
+  <!-- Global Header -->
+  <header>
+    <h1>Reliable Plumbing Services</h1>
+    <p>Affordable • Professional • Reliable</p>
+  </header>
+
+  <!-- Global Navigation -->
+  <nav aria-label="Primary">
+    <ul>
+      <!-- Ensure all nav links work across pages (Part 1 requirement) -->
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero / Intro -->
+    <section>
+      <h2>Your trusted experts for leaks, installations, and repairs</h2>
+      <p>Established in 2018, we provide residential and commercial plumbing solutions: pipe installations, leak detection, drainage, and emergency repairs.</p>
+      <!-- CTA can be styled later in Part 2 -->
+      <p><a href="enquiry.html">Request a Quote →</a></p>
+    </section>
+
+    <!-- Highlights / KPIs (text-only for Part 1) -->
+    <section>
+      <h3>Why choose us?</h3>
+      <ul>
+        <li>Qualified team focused on quality workmanship</li>
+        <li>Fast response for emergencies</li>
+        <li>Transparent pricing and free assessments</li>
+      </ul>
+    </section>
+
+    <!-- Placeholder for gallery (images to be sourced and cited in Part 1 ZIP; styled in Part 2) -->
+    <section>
+      <h3>Recent Work (Preview)</h3>
+      <p>[Placeholder for project images/gallery to be added later]</p>
+      <!-- Add <img> with proper alt text and references when assets are ready -->
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer>
+    <p>&copy; 2018–2025 Reliable Plumbing Services. All rights reserved.</p>
+    <p><small>This is a Part 1 HTML skeleton (no CSS/JS yet).</small></p>
+  </footer>
+</body>
+</html>
