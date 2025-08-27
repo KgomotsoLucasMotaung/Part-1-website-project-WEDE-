@@ -59,9 +59,9 @@ See visual hierarchy in `/docs/sitemap.png` (also summarised in the proposals).
 ---
 
 ## Changelog  
-- **[DD/MM/2025]** – Created repository and proposals.  
-- **[DD/MM/2025]** – Added sitemap and initial folder structure.  
-- **[DD/MM/2025]** – Pushed initial HTML skeleton pages.  
+- **[24/08/2025]** – Created repository and proposals.  
+- **[25/08/2025]** – Added sitemap and initial folder structure.  
+- **[27/08/2025]** – Pushed initial HTML skeleton pages.  
 
 ---
 
