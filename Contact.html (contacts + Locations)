@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reliable Plumbing Services | Contact</title>
+  <meta name="description" content="Contact details and locations for Reliable Plumbing Services."/>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Multiple locations per rubric -->
+    <section>
+      <h2>Our Locations</h2>
+      <ul>
+        <li><strong>Pretoria Office:</strong> 123 Main Street, Pretoria, Gauteng</li>
+        <li><strong>Johannesburg Office:</strong> 45 Market Road, Johannesburg, Gauteng</li>
+      </ul>
+      <!-- Part 3: Replace placeholders with embedded maps (Google Maps iframe) -->
+      <p>[Map embeds to be added in Part 3]</p>
+    </section>
+
+    <!-- Simple contact form (HTML only) -->
+    <section>
+      <h3>Send us a message</h3>
+      <form action="#" method="post">
+        <label for="c-name">Full Name *</label><br/>
+        <input id="c-name" name="name" type="text" required /><br/><br/>
+
+        <label for="c-email">Email *</label><br/>
+        <input id="c-email" name="email" type="email" required /><br/><br/>
+
+        <label for="c-msg">Message *</label><br/>
+        <textarea id="c-msg" name="message" rows="6" required></textarea><br/><br/>
+
+        <button type="submit">Send</button>
+      </form>
+      <p><small>* Required fields</small></p>
+    </section>
+
+    <!-- Contact details -->
+    <section>
+      <h3>Direct Contact</h3>
+      <p>Email: info@reliableplumbing.co.za</p>
+      <p>Phone: +27 79 512 8828</p>
+      <p>Hours: Mon–Sat 08:00–18:00</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2018–2025 Reliable Plumbing Services.</p>
+  </footer>
+</body>
+</html>
