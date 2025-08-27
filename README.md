@@ -1,4 +1,3 @@
-# Part-1-website-project-WEDE-
 # Website Project – POE Part 1  
 
 ## Student Information  
