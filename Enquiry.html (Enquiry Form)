@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reliable Plumbing Services | Enquiry</title>
+  <meta name="description" content="Submit a service enquiry for plumbing installations, repairs, or inspections."/>
+</head>
+<body>
+  <header>
+    <h1>Service Enquiry</h1>
+  </header>
+
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Part 1: HTML-only form (client-side validation and JS in Part 3) -->
+    <section>
+      <h2>Request a Quote</h2>
+      <p>Please complete the form below and we’ll respond shortly.</p>
+
+      <form action="#" method="post">
+        <!-- In Part 3, replace # with a real endpoint or JS handler -->
+        <fieldset>
+          <legend>Your Details</legend>
+          <label for="name">Full Name *</label><br/>
+          <input id="name" name="name" type="text" required /><br/><br/>
+
+          <label for="email">Email *</label><br/>
+          <input id="email" name="email" type="email" required /><br/><br/>
+
+          <label for="phone">Phone</label><br/>
+          <input id="phone" name="phone" type="tel" /><br/><br/>
+        </fieldset>
+
+        <fieldset>
+          <legend>Service Details</legend>
+          <label for="service">Service Type *</label><br/>
+          <select id="service" name="service" required>
+            <option value="">-- Select a service --</option>
+            <option>Pipe Installation</option>
+            <option>Leak Detection</option>
+            <option>Drainage Solution</option>
+            <option>Emergency Repair</option>
+          </select><br/><br/>
+
+          <label for="message">Describe the issue *</label><br/>
+          <textarea id="message" name="message" rows="6" required></textarea><br/><br/>
+        </fieldset>
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+
+      <!-- Accessibility / notes -->
+      <p><small>* Required fields</small></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2018–2025 Reliable Plumbing Services.</p>
+  </footer>
+</body>
+</html>
